@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Pastela Bakery</title>
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <img src="./Imágenes/logo.png" alt="">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home"><strong>INICIO</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#nosotros"><strong>NOSOTROS</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#productos"><strong>PRODUCTOS</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto"><strong>CONTACTO</strong></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <!-- Sección Inicio -->
+    <section id="home">
+        <main>
+        <div class="principal">
+            <h1>"Sabor, Calidad y Amor en cada bocado"</h1>
+            <p>¡Deliciosos pasteles y postres personalizados para cualquier ocasión!</p>
+            <a href="#productos" class="btn btn-light btn-lg" style="background-color:  #567744; border-style: none;">VER PRODUCTOS</a>
+        </div>
+    </main>
+    </section>
+           
+    <!-- Sección Nosotros-->
+    <section id="nosotros" class="container-fluid bg-light">
+        <div class="row d-flex align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <h2 class="text-center"><strong>¿Quiénes somos?</strong></h2>
+            <p class="text-center">En <strong><span style="color:#567744; font-style: italic;">"Pastela Bakery"</span></strong> transformamos nuestro amor por la repostería en deliciosas creaciones gourmet. Hace un año, emprendimos este dulce viaje con la ilusión de ofrecerte productos irresistibles, elaborados con ingredientes de alta calidad a precios accesibles.</p>
+            <p class="text-center">¡Te invitamos a ser parte de nuestra historia y a disfrutar de cualquiera de nuestros deliciosos postres!</p>
+          </div>
+      
+          <div class="col-sm-12 col-md-6 text-center">
+            <img src="./Imágenes/pastelera.jpg" alt="Imagen de quienes somos"  class="img-fluid">
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección Productos -->
+    <section id="productos">
+        <div class="container align-items-center">
+            <h2 class="text-center"><strong>Nuestros productos</strong></h2>
+            <p class="text-center">Ofrecemos una variedad de postres exquisitos como pasteles personalizados, tartas, pays, cheesecakes, galletas, brownies, cupcakes y pan de temporada; diseñados para cualquier evento y ocasión especial.</p>
+        <div id="productoscarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#productoscarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#productoscarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#productoscarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#productoscarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#productoscarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <img src="./Imágenes/carr1.jpg" class="d-block w-100" alt="Pasteles">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imágenes/carr2.jpg" class="d-block w-100" alt="Brownies">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imágenes/carr3.jpg" class="d-block w-100" alt="Galletas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imágenes/carr4.jpg" class="d-block w-100" alt="Cupcakes">
+                    </div>
+                    <div class="carousel-item">
+                       <img src="./Imágenes/carr5.jpg" class="d-block w-100" alt="Cheesecake">
+                    </div>
+                </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productoscarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#productoscarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+    </div>
+    </section>
+
+ <!-- Sección Contacto-->
+ <section id="contacto" class="bg-light text-center">
+    <div class="container">
+        <h2><strong>Contáctanos</strong></h2>
+        <p>Pedidos por Whatsapp o Mensaje directo en Facebook o Instagram.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <a href="https://www.instagram.com/pastela_bakery" class="d-block">
+                    <img src="./Imágenes/instagram.png" alt="Instagram logo" width="40" height="40">
+                    <span class="d-block"><strong>Instagram:</strong> @pastela_bakery</span>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.facebook.com/Pastelabakery0" class="d-block">
+                    <img src="./Imágenes/facebook.png" alt="Facebook logo" width="40" height="40">
+                    <span class="d-block"><strong>Facebook:</strong> Pastela Bakery</span>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://wa.link/s2t5vm" class="d-block">
+                    <img src="./Imágenes/WhatsApp_icon.png" alt="Whatsapp logo" width="50" height="50">
+                    <span class="d-block"><strong>Whatsapp:</strong> 5522425523</span>
+                </a>
+            </div>
+        </div>
+        <p>No tenemos tienda física, pero puedes recoger tu pedido en la siguiente dirección:</p>
+        <p><strong>Dirección:</strong> Sebastián del Piombo 53, Colonia Nonoalco Mixcoac, Benito Juárez, CDMX, México.</p>
+        <div class="mapa mt-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15054.756461844567!2d-99.1899749!3d19.3826094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201a27f6ee4d7%3A0x65a550f80660da1e!2sPastela%20Bakery!5e0!3m2!1ses-419!2smx!4v1723499455107!5m2!1ses-419!2smx" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pastela Bakery. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
